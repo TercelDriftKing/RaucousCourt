@@ -1,0 +1,172 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.3f1 (4bef613afd59) revision 4976481'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 8.1  (6.3.0) 64bit' Language: 'en' Physical Memory: 16273 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Anna/Documents/GitHub/RaucousCourt
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50317
+Successfully changed project path to: C:/Users/Anna/Documents/GitHub/RaucousCourt
+C:/Users/Anna/Documents/GitHub/RaucousCourt
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 97.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.3f1 (4bef613afd59)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Anna/Documents/GitHub/RaucousCourt/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M         (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     1991 MB
+    Driver:   10.18.13.5946
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001102 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 99.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.4 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3129.
+Total: 2.843033 ms (FindLiveObjects: 0.365149 ms CreateObjectMapping: 0.294488 ms MarkObjects: 2.107208 ms  DeleteObjects: 0.075398 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/materials/flat_wood_normal.tga
+  artifactKey: Guid(c430cd76378091c4d9192844129302ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/flat_wood_normal.tga using Guid(c430cd76378091c4d9192844129302ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a82b6501c673eab98bb8887e94d37e') in 0.122678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/materials/flat_wood_ambientocclusion.tga
+  artifactKey: Guid(e13dac2ebf0536e499441faa9d292783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/flat_wood_ambientocclusion.tga using Guid(e13dac2ebf0536e499441faa9d292783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea0f44fe9c5dd10890692eac8cc8ad9') in 0.022069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/materials/flat_wood_basecolor.tga
+  artifactKey: Guid(51ac95eca87014f4a9c3f2fc40bd301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/flat_wood_basecolor.tga using Guid(51ac95eca87014f4a9c3f2fc40bd301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782dcc9ad16b4558b7f47faa719cbc48') in 0.019788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/materials/flat_wood_height.tga
+  artifactKey: Guid(081b300924134354285afad539eee5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/flat_wood_height.tga using Guid(081b300924134354285afad539eee5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66505f3492069dd1638adf0f5945dad') in 0.019073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.835773 seconds.
+  path: Assets/materials/New Folder
+  artifactKey: Guid(1f9f0499b9b119849b113411d93e2655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/New Folder using Guid(1f9f0499b9b119849b113411d93e2655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d53e5596cf7d01ce5c0595b3c32e28') in 0.010592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.774770 seconds.
+  path: Assets/materials/New Material.mat
+  artifactKey: Guid(eed88a31c241b3e4bbf8ea60152d5454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/New Material.mat using Guid(eed88a31c241b3e4bbf8ea60152d5454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b431e9d54342541eeb8e475ef48c884b') in 0.113734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.021619 seconds.
+  path: Assets/materials/flat_wood_normal.tga
+  artifactKey: Guid(c430cd76378091c4d9192844129302ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/flat_wood_normal.tga using Guid(c430cd76378091c4d9192844129302ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d26c2b62d1b0c73d1294ca808a4f3e') in 0.033721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 113.999252 seconds.
+  path: Assets/materials/limestone_Normal.png
+  artifactKey: Guid(507bf894a61103d42828a521825a5064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/limestone_Normal.png using Guid(507bf894a61103d42828a521825a5064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a020962d3b5bfa60f1666cf5d6209330') in 0.031116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/materials/limestone_Base Color.png
+  artifactKey: Guid(475fef12517c06542aa0bb45f6cd7fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/limestone_Base Color.png using Guid(475fef12517c06542aa0bb45f6cd7fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae5c9f4811cca5c1626e2c6c64e9d95') in 0.025094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/materials/limestone_Height.png
+  artifactKey: Guid(5d403b92c094dbd4fbb31029d23ce724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/limestone_Height.png using Guid(5d403b92c094dbd4fbb31029d23ce724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f659e8ff295304c43428d0a8deb52ee9') in 0.049411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/materials/limestone_Ambient Occlusion.png
+  artifactKey: Guid(64fcfb35fb780ae4eafdeb8e589497e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/limestone_Ambient Occlusion.png using Guid(64fcfb35fb780ae4eafdeb8e589497e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a0e9db7f9ccdf4681ef9f71d81a4b7') in 0.044015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.029081 seconds.
+  path: Assets/materials/New Material.mat
+  artifactKey: Guid(80b0642b896e0134ba16646020d63f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/New Material.mat using Guid(80b0642b896e0134ba16646020d63f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49ed76cb088d37bd35df030110640fd') in 0.055523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.480533 seconds.
+  path: Assets/materials/limestone_Normal.png
+  artifactKey: Guid(507bf894a61103d42828a521825a5064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/limestone_Normal.png using Guid(507bf894a61103d42828a521825a5064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526f5e4b08be19f0e82276108f9a62ab') in 0.050547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.747864 seconds.
+  path: Assets/materials/limestone.mat
+  artifactKey: Guid(80b0642b896e0134ba16646020d63f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/limestone.mat using Guid(80b0642b896e0134ba16646020d63f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a973464de02256fe4f13018f01e2bf') in 0.066536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/materials/wood.mat
+  artifactKey: Guid(eed88a31c241b3e4bbf8ea60152d5454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/wood.mat using Guid(eed88a31c241b3e4bbf8ea60152d5454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ca3e0213e50b0345b0fb0c699dc2e4') in 0.054230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.011935 seconds.
+  path: Assets/materials/maps/wood
+  artifactKey: Guid(da8b066c7f8bd1b4a9cdff42ecf5c6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/maps/wood using Guid(da8b066c7f8bd1b4a9cdff42ecf5c6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e906e72902fa4d401717cba4ead03c') in 0.002659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.208233 seconds.
+  path: Assets/materials/maps/limestone
+  artifactKey: Guid(817871741f9db534ea10153b8bbd0976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/maps/limestone using Guid(817871741f9db534ea10153b8bbd0976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46040554b1e08ee6f72577c60f22707a') in 0.003201 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
