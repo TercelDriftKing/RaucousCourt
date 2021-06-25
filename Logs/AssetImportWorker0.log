@@ -15,11 +15,11 @@ C:/Users/Anna/Documents/GitHub/RaucousCourt
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53056
+53655
 Successfully changed project path to: C:/Users/Anna/Documents/GitHub/RaucousCourt
 C:/Users/Anna/Documents/GitHub/RaucousCourt
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 122.17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 129.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.3f1 (4bef613afd59)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -36,762 +36,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001200 seconds.
+Registered in 0.001703 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 118.05 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 138.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.250 seconds
+- Completed reload, in  1.281 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002807 seconds.
+Registered in 0.005474 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 120.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 120.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.283 seconds
+- Completed reload, in  1.296 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3997 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.0 MB.
-System memory in use after: 214.2 MB.
+Unloading 4140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.0 MB.
+System memory in use after: 219.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4465.
-Total: 3.004090 ms (FindLiveObjects: 0.376202 ms CreateObjectMapping: 0.191851 ms MarkObjects: 2.366955 ms  DeleteObjects: 0.068293 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4603.
+Total: 3.521220 ms (FindLiveObjects: 0.643846 ms CreateObjectMapping: 0.334753 ms MarkObjects: 2.463275 ms  DeleteObjects: 0.075793 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/materials/skybox draft mat.jpg
-  artifactKey: Guid(83369ff1234d10d438597f1709b1723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/skybox draft mat.jpg using Guid(83369ff1234d10d438597f1709b1723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ce1df9e5db5104358a3fe348c66c99') in 0.245330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 124.092466 seconds.
-  path: Assets/materials/maps/depositphotos_99788624-stock-photo-stone-texture-background.jpg
-  artifactKey: Guid(12a665bf0ad08944cb1e35a26542abf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/depositphotos_99788624-stock-photo-stone-texture-background.jpg using Guid(12a665bf0ad08944cb1e35a26542abf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94331315d6038dd29ab9e8384ed77f5') in 0.215810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/materials/maps/oculus basic_blinn1_Normal.png
-  artifactKey: Guid(4a3ba54421c56fd46b2a7b7cab7e4936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/oculus basic_blinn1_Normal.png using Guid(4a3ba54421c56fd46b2a7b7cab7e4936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbeacb55b1e08a40e34b3b066fd4f4c') in 0.130494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/materials/maps/lambert10_roughness.jpg
-  artifactKey: Guid(c204d6164c9acc54cb2dc9251cd55a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/lambert10_roughness.jpg using Guid(c204d6164c9acc54cb2dc9251cd55a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e47d90da5b9fa8e5a9b643f724d0a5f') in 0.125067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/materials/maps/lambert10_baseColor.jpg
-  artifactKey: Guid(04598e952b8f86247ad98a7e2206a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/lambert10_baseColor.jpg using Guid(04598e952b8f86247ad98a7e2206a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c753b7dbf0de5022f17f73507b9d2e') in 0.057399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/materials/maps/oculus basic_blinn1_Roughness.png
-  artifactKey: Guid(aeb403ae5709433478fc33f6ff361301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/oculus basic_blinn1_Roughness.png using Guid(aeb403ae5709433478fc33f6ff361301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ddda87ee02cb81ae40b40614095741') in 0.039418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/materials/maps/lambert1_roughness.jpg
-  artifactKey: Guid(036c4d6da91fed64f973ec55b9c3c374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/lambert1_roughness.jpg using Guid(036c4d6da91fed64f973ec55b9c3c374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed90903eb2411a36bd02d3926a69bee2') in 0.065483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/materials/maps/Free-Gold-Foil-Texture1.jpg
-  artifactKey: Guid(24b48bda650fa294ea14072bdec666af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/Free-Gold-Foil-Texture1.jpg using Guid(24b48bda650fa294ea14072bdec666af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664483b2d2157bc41f93f6b34fd59f51') in 0.094006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/materials/maps/lambert10_metallic.jpg
-  artifactKey: Guid(99a966ead74efa3488a0843c5fb3b66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/lambert10_metallic.jpg using Guid(99a966ead74efa3488a0843c5fb3b66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92eda14560efc62a18c8cd737419c70') in 0.059984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/materials/maps/oculus basic_blinn1_BaseColor.png
-  artifactKey: Guid(769b08ab842d0324d96e3740722f8d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/oculus basic_blinn1_BaseColor.png using Guid(769b08ab842d0324d96e3740722f8d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62ec58c1042e5c2c0f33db1e2d145b8') in 0.054651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/materials/maps/lambert1_normal.png
-  artifactKey: Guid(b629532c1761ded49b8f0af4edb9dcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/lambert1_normal.png using Guid(b629532c1761ded49b8f0af4edb9dcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b1188165f5afed881928b8178d3743') in 0.081503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/materials/maps/lambert1_metallic.jpg
-  artifactKey: Guid(372df0ee2a05178449569a7bd38e2a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/lambert1_metallic.jpg using Guid(372df0ee2a05178449569a7bd38e2a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9983c1f7aca729578e3400473d03adf1') in 0.066442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/materials/maps/oculus basic_blinn1_Metallic.png
-  artifactKey: Guid(cd4fb35574c274f4dbf535d9cec64253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/oculus basic_blinn1_Metallic.png using Guid(cd4fb35574c274f4dbf535d9cec64253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1c277958c8d631b0f9849b84215d32') in 0.036609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/materials/maps/oculus basic_blinn1_Height.png
-  artifactKey: Guid(6659a09a477429a42bf83dd35f578459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/oculus basic_blinn1_Height.png using Guid(6659a09a477429a42bf83dd35f578459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd974d42ba1eb34662fb774e68fbf961e') in 0.065681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/materials/maps/oculus w color and alpha 2 - Copy.tga
-  artifactKey: Guid(2a5569acceadce54d8183a5df6747b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/oculus w color and alpha 2 - Copy.tga using Guid(2a5569acceadce54d8183a5df6747b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540df1bebd28682380b6022ea3fdd6f7') in 0.233245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/materials/maps/trim 1.png
-  artifactKey: Guid(6a3e48b908d48b9429cfdb376d82cf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/trim 1.png using Guid(6a3e48b908d48b9429cfdb376d82cf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e92c1cc6d1903f9a277bd6cdba389d') in 0.124910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/materials/maps/lambert1_baseColor.jpg
-  artifactKey: Guid(c9067fc2283b3ef419a7427b3bf7cfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/lambert1_baseColor.jpg using Guid(c9067fc2283b3ef419a7427b3bf7cfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f946ff74570e610a0c858e6cf8008e') in 0.067425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/materials/maps/Ground-Nature_Texture_A_P4120796.JPG
-  artifactKey: Guid(b230704c71adb834492817eafa9a0db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/Ground-Nature_Texture_A_P4120796.JPG using Guid(b230704c71adb834492817eafa9a0db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c87a21daa8a2194830d06fddff776d8') in 0.120062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/materials/maps/lambert1_occlusion.jpg
-  artifactKey: Guid(ee9f0ab690cca824ca169254fd364c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/lambert1_occlusion.jpg using Guid(ee9f0ab690cca824ca169254fd364c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff427f297129d65367f415a23a0dfa1') in 0.065995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/materials/maps/lambert10_normal.png
-  artifactKey: Guid(29daebd3ccaba084ea644819d0fe2a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/lambert10_normal.png using Guid(29daebd3ccaba084ea644819d0fe2a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f09620c032aee03dd61a6ade7bd2bd') in 0.062200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/materials/maps/oculus w color and alpha 2.tga
-  artifactKey: Guid(565ec36e3c034b64dbccb6b31050126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/oculus w color and alpha 2.tga using Guid(565ec36e3c034b64dbccb6b31050126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c657cefe73a2ef082453d184bbe857b') in 0.156798 seconds 
+  path: Assets/Main Camera.controller
+  artifactKey: Guid(b61aef2c36737374088fca942bff02a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Camera.controller using Guid(b61aef2c36737374088fca942bff02a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800d96da3fcf8c26c8a202f75b251e00') in 0.109373 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004448 seconds.
+Registered in 0.003702 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.189 seconds
+- Completed reload, in  1.078 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4000 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 306.7 MB.
-System memory in use after: 306.9 MB.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.1 MB.
+System memory in use after: 217.3 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4820.
-Total: 3.100805 ms (FindLiveObjects: 0.468575 ms CreateObjectMapping: 0.184351 ms MarkObjects: 2.428536 ms  DeleteObjects: 0.017764 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4606.
+Total: 2.865926 ms (FindLiveObjects: 0.479628 ms CreateObjectMapping: 0.190667 ms MarkObjects: 2.142733 ms  DeleteObjects: 0.051318 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 85.892093 seconds.
-  path: Assets/materials/maps/Materials
-  artifactKey: Guid(4797ed292cf156644bb36db93eabbff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/Materials using Guid(4797ed292cf156644bb36db93eabbff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951a2cd0a168bd7a410e54b18350648e') in 0.050360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.041952 seconds.
-  path: Assets/materials/maps/Materials/Free-Gold-Foil-Texture1.mat
-  artifactKey: Guid(f8e631a67c5b51840a01ab4fdf544265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/Materials/Free-Gold-Foil-Texture1.mat using Guid(f8e631a67c5b51840a01ab4fdf544265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdf1f3d5154c67dc775a3449abb30c5') in 0.135736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/materials/maps/Materials/trim 1.mat
-  artifactKey: Guid(edd292b24ce70694bbefb9303a2e58bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/Materials/trim 1.mat using Guid(edd292b24ce70694bbefb9303a2e58bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09feda3f34fe554361b3e4de4486bfc6') in 0.042170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.095764 seconds.
-  path: Assets/materials/Cathedral Materials/Base_Wall.mat
-  artifactKey: Guid(e7a09c45024602943aea574125e0fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Base_Wall.mat using Guid(e7a09c45024602943aea574125e0fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a2bb4306eb475f607930381c5f5c9f') in 0.286035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_ceiling.mat
-  artifactKey: Guid(dabbfc5044920a24bac96d581c7af9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_ceiling.mat using Guid(dabbfc5044920a24bac96d581c7af9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e836a7ea1e50c1da616986184d87be2') in 0.053452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/materials/Cathedral Materials/Wall_Upper_Base_Color.png
-  artifactKey: Guid(38984a16025e2ca48a806dc17316d5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Wall_Upper_Base_Color.png using Guid(38984a16025e2ca48a806dc17316d5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2194788ee2c285238677b51d2754f7') in 0.045789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/materials/Cathedral Materials/Cloister_Arches_Normal_OpenGL.png
-  artifactKey: Guid(be82823856a32c242a582d0f1d1f49e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Cloister_Arches_Normal_OpenGL.png using Guid(be82823856a32c242a582d0f1d1f49e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7489e9ad1a56b5dfd6e1e3941244ee28') in 0.040950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/materials/Cathedral Materials/Wall_Upper_Mixed_AO.png
-  artifactKey: Guid(347ec193af5687a4888d4eee7a69ce07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Wall_Upper_Mixed_AO.png using Guid(347ec193af5687a4888d4eee7a69ce07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ab2cab8e98084ce05383f71f3e3220') in 0.020712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Outter.mat
-  artifactKey: Guid(fd2467360dec503459aff47666b0c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Outter.mat using Guid(fd2467360dec503459aff47666b0c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b82f8134e5bfcc598a68502d216e3b') in 0.027744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Arch_Normal_OpenGL.png
-  artifactKey: Guid(c44520cf0f067f048abc75445a13b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Arch_Normal_OpenGL.png using Guid(c44520cf0f067f048abc75445a13b94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b1c371adc6879b45ec7ae0359d6ba1') in 0.099471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Innards_Mixed_AO.png
-  artifactKey: Guid(2f1575f700ab57942b7b3c952700b0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Innards_Mixed_AO.png using Guid(2f1575f700ab57942b7b3c952700b0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab9462b91c8956d9e27db3bdde2318c') in 0.020920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Pillars_Base_Color.png
-  artifactKey: Guid(fc0d77c400c44b1439db80bbd1a14521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Pillars_Base_Color.png using Guid(fc0d77c400c44b1439db80bbd1a14521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d817b1da6b9bb707b4e779f186575ad') in 0.021715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/materials/Cathedral Materials/Lower_Arches.mat
-  artifactKey: Guid(1bbbd3182563cf54fa48e04d94ba66ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Lower_Arches.mat using Guid(1bbbd3182563cf54fa48e04d94ba66ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cc68808f8df330f0188f59a3591f55') in 0.028203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/materials/Cathedral Materials/Dome_Arches_Mixed_AO.png
-  artifactKey: Guid(6d4745dde492e1d4f98aa5853d6150d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Dome_Arches_Mixed_AO.png using Guid(6d4745dde492e1d4f98aa5853d6150d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acd969f830102acc1b525c661304edb') in 0.019931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/materials/Cathedral Materials/Lower_arches_Base_Color.png
-  artifactKey: Guid(5ac531ca6fb31994cb216e195ce89d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Lower_arches_Base_Color.png using Guid(5ac531ca6fb31994cb216e195ce89d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e42e3eba79c357412f9d113742fae0') in 0.029538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/materials/Cathedral Materials/Dome_Walls_Mixed_AO.png
-  artifactKey: Guid(14c0a8a4a5219c646a043c06b9278f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Dome_Walls_Mixed_AO.png using Guid(14c0a8a4a5219c646a043c06b9278f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec95996656fd5baab64760e5f2ad3c9a') in 0.019868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/materials/Cathedral Materials/Lower_arches_Mixed_AO.png
-  artifactKey: Guid(a4ddcfda844a39f4cac336110c067722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Lower_arches_Mixed_AO.png using Guid(a4ddcfda844a39f4cac336110c067722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5b660c217a7b079038a8a1adf0e8c7') in 0.035313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiliing_Ceiling_Normal_OpenGL.png
-  artifactKey: Guid(2f23b1098825da84ab750741dd36c05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiliing_Ceiling_Normal_OpenGL.png using Guid(2f23b1098825da84ab750741dd36c05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1a76d0a922bdfae0a6b9d25f37000f') in 0.072374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/materials/Cathedral Materials/Base_Wall_Normal_OpenGL.png
-  artifactKey: Guid(1db89c04648395e4c9c4b089ea8139ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Base_Wall_Normal_OpenGL.png using Guid(1db89c04648395e4c9c4b089ea8139ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5b67336068151fee5635ff63a14173') in 0.041694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Arch_Mixed_AO.png
-  artifactKey: Guid(f5dcb80ea0fcf8749ac953d570a79ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Arch_Mixed_AO.png using Guid(f5dcb80ea0fcf8749ac953d570a79ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1453d6295e5aeb6ab0cf2ff27e89590f') in 0.027741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Arch_Base_Color.png
-  artifactKey: Guid(e2e0cabda546ed14d8e269577fc304c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Arch_Base_Color.png using Guid(e2e0cabda546ed14d8e269577fc304c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ceecae11ee10d28f0a379c1bb205a8a') in 0.019300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/materials/Cathedral Materials/Pillars_Mixed_AO.png
-  artifactKey: Guid(67b0213c78b2e7b4ca24e32f59d2cafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Pillars_Mixed_AO.png using Guid(67b0213c78b2e7b4ca24e32f59d2cafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f343aec2bed5ba2feb98eaf9e91e74aa') in 0.027008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/materials/Cathedral Materials/Dome_Arches 1.mat
-  artifactKey: Guid(4e776700a656b8e4d83f835128f2e9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Dome_Arches 1.mat using Guid(4e776700a656b8e4d83f835128f2e9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60822fc6f6d310bf4055fdbc71a1641') in 0.027590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Innards_Normal_OpenGL.png
-  artifactKey: Guid(cecd05ecaf777c04da3c9b09df869290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Innards_Normal_OpenGL.png using Guid(cecd05ecaf777c04da3c9b09df869290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a8eeb662a1f2d13aaa18bd50cb72a7') in 0.026049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/materials/Cathedral Materials/Cloister_Arches_Mixed_AO.png
-  artifactKey: Guid(8f7e0e32d3d98c34c9fdf56843eebc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Cloister_Arches_Mixed_AO.png using Guid(8f7e0e32d3d98c34c9fdf56843eebc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928acbdf64fcac371da181d75fca4047') in 0.020449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Walls_Mixed_AO.png
-  artifactKey: Guid(b53ce97f063b71a4f936da94730da11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Walls_Mixed_AO.png using Guid(b53ce97f063b71a4f936da94730da11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e30eb08608c3dff70cb61682e76b528') in 0.019149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/materials/Cathedral Materials/Dome_Arches_Normal_OpenGL.png
-  artifactKey: Guid(e2b4203cd6e94c4428f193466288ebef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Dome_Arches_Normal_OpenGL.png using Guid(e2b4203cd6e94c4428f193466288ebef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec300607e19fadb3e50b24bad2f4e4f') in 0.023426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Walls_Normal_OpenGL.png
-  artifactKey: Guid(fbc7dc4928e2ba94a94a574026df99fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Walls_Normal_OpenGL.png using Guid(fbc7dc4928e2ba94a94a574026df99fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a30ee1325d13534e7d75a6a032009f') in 0.038493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/materials/Cathedral Materials/Pillars_Normal_OpenGL.png
-  artifactKey: Guid(11cf2a458efb17840bfa8c76d8fd68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Pillars_Normal_OpenGL.png using Guid(11cf2a458efb17840bfa8c76d8fd68b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9e546798a6b12a40c6284abc071f6d') in 0.023184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Pillars_Normal_OpenGL.png
-  artifactKey: Guid(544e69383394e7d47b5333d5fa783857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Pillars_Normal_OpenGL.png using Guid(544e69383394e7d47b5333d5fa783857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d4596fcf0fd46c49da1c6e3e56b7c0') in 0.026585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/materials/Cathedral Materials/Dome_Walls.mat
-  artifactKey: Guid(c59a01a356675d2438cb2582696fc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Dome_Walls.mat using Guid(c59a01a356675d2438cb2582696fc362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9f7c7307b03757ab810fcfcede0324') in 0.026158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Innards.mat
-  artifactKey: Guid(9af924585bf29e547afcbb35db91d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Innards.mat using Guid(9af924585bf29e547afcbb35db91d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851a368d449ce2b134c883053b93e1b1') in 0.027863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/materials/Cathedral Materials/Lower_arches_Normal_OpenGL.png
-  artifactKey: Guid(be9e0409483966e44af9eed22ba81f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Lower_arches_Normal_OpenGL.png using Guid(be9e0409483966e44af9eed22ba81f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5274ae95d894e959945768a88b18634f') in 0.022914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiliing_Ceiling_Base_Color.png
-  artifactKey: Guid(825a6b28db1734a4cb37b2e038c6e967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiliing_Ceiling_Base_Color.png using Guid(825a6b28db1734a4cb37b2e038c6e967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeb71f648a1f94d118727298b12baff') in 0.019981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Walls_Base_Color.png
-  artifactKey: Guid(0d08bd0f2a5681040abd89f001438504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Walls_Base_Color.png using Guid(0d08bd0f2a5681040abd89f001438504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9962882145da18e0896560bb6a621bfc') in 0.020327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/materials/Cathedral Materials/Dome_Arches_Base_Color.png
-  artifactKey: Guid(e35cf053853e22a449b069d26dad9566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Dome_Arches_Base_Color.png using Guid(e35cf053853e22a449b069d26dad9566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17843d1b73d51032f62e871fec966003') in 0.022623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/materials/FoliageStuff/Foliage_metallic.png
-  artifactKey: Guid(9380cfb30b65ca6428b64642c97c86b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Foliage_metallic.png using Guid(9380cfb30b65ca6428b64642c97c86b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9e627fa3b017bd1bd66fcb8f245de7') in 0.199860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/materials/FoliageStuff/Foliage_roughness.png
-  artifactKey: Guid(21322b9965b9e7948bd7d0da8f880400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Foliage_roughness.png using Guid(21322b9965b9e7948bd7d0da8f880400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30f958cadc1a9a43a3ce5ce625aabdd') in 0.100860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/materials/FoliageStuff/Tree_Foliage_height.tga
-  artifactKey: Guid(fc1583bf22840134cab0b8d392dcda29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Tree_Foliage_height.tga using Guid(fc1583bf22840134cab0b8d392dcda29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a706506450cbdee466cf930d0b862906') in 0.153563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/materials/FoliageStuff/Tree_Foliage_basecolor.tga
-  artifactKey: Guid(eff7ad52abf0a95498f5b112c5ed031a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Tree_Foliage_basecolor.tga using Guid(eff7ad52abf0a95498f5b112c5ed031a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c014ffeb8eb022262e832f27c5697ec') in 0.153155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/materials/FoliageStuff/Foliage_ambientocclusion.png
-  artifactKey: Guid(51e68d492b2d86f4bb6dd6a3d22fbba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Foliage_ambientocclusion.png using Guid(51e68d492b2d86f4bb6dd6a3d22fbba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc5f175951d5084f0dc182403b8a749') in 0.351143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/materials/FoliageStuff/Tree_Foliage_metallic.tga
-  artifactKey: Guid(779fa9cb5af41b3468d61e3c03573812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Tree_Foliage_metallic.tga using Guid(779fa9cb5af41b3468d61e3c03573812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d73a3bb427053a8df3f2d16f1e9b3d6') in 0.019896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/materials/FoliageStuff/Foliage_Opacity.png
-  artifactKey: Guid(034a8ed1c6c504642b97052b7c432741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Foliage_Opacity.png using Guid(034a8ed1c6c504642b97052b7c432741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4969141c0efad2d6b61c318548145b') in 0.243139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/materials/FoliageStuff/Tree_Foliage_ambientocclusion.tga
-  artifactKey: Guid(cd6cce521c8939643a7f58b24685542f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Tree_Foliage_ambientocclusion.tga using Guid(cd6cce521c8939643a7f58b24685542f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd64dc30434abefee141e19d5e5fa3e9') in 0.113045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Arches.mat
-  artifactKey: Guid(5fedbc1426b214241812e7a634f52ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Arches.mat using Guid(5fedbc1426b214241812e7a634f52ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd102e52340697e815eaccbee2de8168c') in 0.051153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/materials/FoliageStuff/Foliage_normal.png
-  artifactKey: Guid(7c7d3b660221cfb41a654ad5c9589267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Foliage_normal.png using Guid(7c7d3b660221cfb41a654ad5c9589267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc818aaa70bcc82b3066ae76bda39370') in 0.070054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/materials/Cathedral Materials/Cloister_Arches.mat
-  artifactKey: Guid(b3647a38ed2dcd54ea3a6ee46821ad90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Cloister_Arches.mat using Guid(b3647a38ed2dcd54ea3a6ee46821ad90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8845eadbd92e4a294c934d615b27050') in 0.068692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Outter_Base_Color 1.png
-  artifactKey: Guid(9d73bfe1c746bfc43bebd477e6e0b8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Outter_Base_Color 1.png using Guid(9d73bfe1c746bfc43bebd477e6e0b8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad82bbac53830c8daf81a286cd821af3') in 0.046063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Pillars.mat
-  artifactKey: Guid(86636a33d765c9d4fbe15b10a55c4597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Pillars.mat using Guid(86636a33d765c9d4fbe15b10a55c4597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e7afbaa2c1344120da09be6a3a37ee') in 0.048234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/materials/Cathedral Materials/Pillars.mat
-  artifactKey: Guid(871a6afc498fdb943a0dd72cb939414f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Pillars.mat using Guid(871a6afc498fdb943a0dd72cb939414f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34880b310ea25bb410b01868f0623ea4') in 0.040788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/materials/FoliageStuff/Tree_Foliage_roughness.tga
-  artifactKey: Guid(ad6be35a781693a4d9dbc10327553ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Tree_Foliage_roughness.tga using Guid(ad6be35a781693a4d9dbc10327553ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a3aa7a77dd7892dea5b1c20d351de3') in 0.037083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/materials/FoliageStuff/Foliage_basecolor.psd
-  artifactKey: Guid(244099e568de9fc4fa41e527d0d35786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Foliage_basecolor.psd using Guid(244099e568de9fc4fa41e527d0d35786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1fae1b0689e81a0773d0062a458c39') in 0.048794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/materials/Cathedral Materials/Wall_Upper_Normal_OpenGL.png
-  artifactKey: Guid(c487cb0c82b011d44ab4548e77126316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Wall_Upper_Normal_OpenGL.png using Guid(c487cb0c82b011d44ab4548e77126316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ac0057ff23a12ff4aa0d7bbd5ecac4') in 0.050171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/materials/Cathedral Materials/Wall_Upper.mat
-  artifactKey: Guid(f4431c5ba947f254e87ba3b16fd91290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Wall_Upper.mat using Guid(f4431c5ba947f254e87ba3b16fd91290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3263e699219dc532379a0f68f9723f') in 0.033886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/materials/Cathedral Materials/Pillars_Base_Color.png
-  artifactKey: Guid(0e775dc150803a945b05c3753e3a6ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Pillars_Base_Color.png using Guid(0e775dc150803a945b05c3753e3a6ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfaa31dd39fbf7c711fa8a9650b6259') in 0.022151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/materials/FoliageStuff/Foliage_height.png
-  artifactKey: Guid(b2da909c9ca0d23469f5341001cc2a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Foliage_height.png using Guid(b2da909c9ca0d23469f5341001cc2a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4e3da87041926b2c87920929d452df') in 0.127724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Outter_Normal_OpenGL 1.png
-  artifactKey: Guid(931d7d278e0cc164bb472ac72036f0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Outter_Normal_OpenGL 1.png using Guid(931d7d278e0cc164bb472ac72036f0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c56d45ba75a418d478b6b599f6df411') in 0.022909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/materials/Cathedral Materials/Base_Wall_Base_Color.png
-  artifactKey: Guid(a4e4a946cb6ae234182cba95ebb57431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Base_Wall_Base_Color.png using Guid(a4e4a946cb6ae234182cba95ebb57431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd49e257e1a8d27a28f1e731e220a793') in 0.024242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Pillars_Mixed_AO.png
-  artifactKey: Guid(c78be4feb1375b547aabea1e597044c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Pillars_Mixed_AO.png using Guid(c78be4feb1375b547aabea1e597044c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892cb742f66511240460c71d6c183474') in 0.021853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/materials/FoliageStuff/Tree_Foliage_normal.tga
-  artifactKey: Guid(752da4b7a7a9d9543ad9d3d32d5c1e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/FoliageStuff/Tree_Foliage_normal.tga using Guid(752da4b7a7a9d9543ad9d3d32d5c1e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5504004636503c50caf292e552c06d77') in 0.129534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/materials/Cathedral Materials/Base_Wall_Mixed_AO.png
-  artifactKey: Guid(2b79c2528c373854cb4fc6438a8a8121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Base_Wall_Mixed_AO.png using Guid(2b79c2528c373854cb4fc6438a8a8121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07189928b42441b2fb2e5210c525e875') in 0.028427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/materials/Cathedral Materials/Dome_Walls_Normal_OpenGL.png
-  artifactKey: Guid(be23af8275264344394e51729e4bcff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Dome_Walls_Normal_OpenGL.png using Guid(be23af8275264344394e51729e4bcff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf45bafd4e1ed284a81e2d73190db2a') in 0.121211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiliing_Ceiling_Mixed_AO.png
-  artifactKey: Guid(21f222c59b539e645bbe9a5f8785495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiliing_Ceiling_Mixed_AO.png using Guid(21f222c59b539e645bbe9a5f8785495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415408da4774cda0b50e7bcda4d0b3f5') in 0.020208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/materials/Cathedral Materials/Cloister_Arches_Base_Color.png
-  artifactKey: Guid(203e86fd16ad7624bbe99d7005d363f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Cloister_Arches_Base_Color.png using Guid(203e86fd16ad7624bbe99d7005d363f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de9b6e2f1b06f789d471589f887d5db') in 0.041353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Innards_Base_Color.png
-  artifactKey: Guid(47d37a08372cb0c40b6c775b8e7eb355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Innards_Base_Color.png using Guid(47d37a08372cb0c40b6c775b8e7eb355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c4964a89f19e7d16c29e261903f3e0') in 0.022263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/materials/Cathedral Materials/Dome_Walls_Base_Color.png
-  artifactKey: Guid(db96085b36bac9144ae6357a6d3e3378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Dome_Walls_Base_Color.png using Guid(db96085b36bac9144ae6357a6d3e3378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f089111aa40a7a48b8f0d5fe70a90e') in 0.022042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/materials/Cathedral Materials/Ceiling_Wall.mat
-  artifactKey: Guid(96b4111678bdcfe44944ed012ff14487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials/Ceiling_Wall.mat using Guid(96b4111678bdcfe44944ed012ff14487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b8b7099e7c44eb68d2797ec4a3b656') in 0.042852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.730661 seconds.
-  path: Assets/materials/clouds unwrapped geo fixed_lambert10_Roughness.png
-  artifactKey: Guid(af4686c38a88a3e458cb79286a00f619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/clouds unwrapped geo fixed_lambert10_Roughness.png using Guid(af4686c38a88a3e458cb79286a00f619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1dd20dec8111a3ecb2017cb053bb17') in 0.048751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/materials/candelabra unrapped w spokes_lambert13_Metallic.png
-  artifactKey: Guid(8ab0a49c889542544896e1a513fda9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/candelabra unrapped w spokes_lambert13_Metallic.png using Guid(8ab0a49c889542544896e1a513fda9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109f8e54ba9fa4060d99c66acb1caa6a') in 0.021621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/materials/clouds unwrapped geo fixed_lambert10_Metallic.png
-  artifactKey: Guid(9c7c4777ed46921408c380ccbabc42b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/clouds unwrapped geo fixed_lambert10_Metallic.png using Guid(9c7c4777ed46921408c380ccbabc42b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787c3c945e596204498beee4fcbdf7a6') in 0.028984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/materials/candelabra unrapped w spokes_lambert13_BaseColor.png
-  artifactKey: Guid(90f65111edfb47b4cba562b425c2e5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/candelabra unrapped w spokes_lambert13_BaseColor.png using Guid(90f65111edfb47b4cba562b425c2e5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d298e6bc3907546a718dc6414f76976') in 0.020926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/materials/clouds unwrapped geo fixed_lambert10_Normal.png
-  artifactKey: Guid(45b414a53624f604bb0c6c8982909aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/clouds unwrapped geo fixed_lambert10_Normal.png using Guid(45b414a53624f604bb0c6c8982909aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7172a21a5da0608c46eb7103561473de') in 0.021767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/materials/candelabra unrapped w spokes_lambert13_Normal.png
-  artifactKey: Guid(9184e3a559b5c2e4ab73a67c5004b271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/candelabra unrapped w spokes_lambert13_Normal.png using Guid(9184e3a559b5c2e4ab73a67c5004b271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bdbf71df79961312ffb98bfe5d9ab6') in 0.108765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/materials/clouds unwrapped geo fixed_lambert10_BaseColor.png
-  artifactKey: Guid(3cccba2e858e12d45ad5e0e918d4dd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/clouds unwrapped geo fixed_lambert10_BaseColor.png using Guid(3cccba2e858e12d45ad5e0e918d4dd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaed9fd16211f48b2e9a01646d724165') in 0.022346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/materials/candelabra unrapped w spokes_lambert13_Height.png
-  artifactKey: Guid(57e8bacd195ed7e44aa28842db8c90df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/candelabra unrapped w spokes_lambert13_Height.png using Guid(57e8bacd195ed7e44aa28842db8c90df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f943ad56d19017b4ec6bd7031cbab94') in 0.138457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/materials/clouds unwrapped geo fixed_lambert10_Height.png
-  artifactKey: Guid(f9e0268b3cae89d4aa3715ea3c2be629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/clouds unwrapped geo fixed_lambert10_Height.png using Guid(f9e0268b3cae89d4aa3715ea3c2be629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb8e4923f9c5e56f9b5cbfd50ddac76') in 0.149929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/materials/candelabra unrapped w spokes_lambert13_Roughness.png
-  artifactKey: Guid(ddb8859035492cf4fb42c932ce6a32f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/candelabra unrapped w spokes_lambert13_Roughness.png using Guid(ddb8859035492cf4fb42c932ce6a32f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523921780bfca6ab39d66e310a746330') in 0.020406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.102770 seconds.
-  path: Assets/materials/clouds material.mat
-  artifactKey: Guid(3d2faf0f2a0f9f3429d8afac1cf9e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/clouds material.mat using Guid(3d2faf0f2a0f9f3429d8afac1cf9e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa4ca9e11290ddba0a758f959271e56') in 0.020171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.849658 seconds.
-  path: Assets/materials/clouds unwrapped geo fixed_lambert10_Normal.png
-  artifactKey: Guid(45b414a53624f604bb0c6c8982909aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/clouds unwrapped geo fixed_lambert10_Normal.png using Guid(45b414a53624f604bb0c6c8982909aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c570c22f8245317c306cc4867e3729') in 0.020356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.932352 seconds.
-  path: Assets/inorganic asset meshes/candelabra unwrapped.fbx
-  artifactKey: Guid(f2dde8a7f680d3849a03324943345523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/inorganic asset meshes/candelabra unwrapped.fbx using Guid(f2dde8a7f680d3849a03324943345523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac60692ae06a1d5809ea324d39db31f8') in 0.181128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/inorganic asset meshes/oculus basic.fbx
-  artifactKey: Guid(ed67eb51b3724d84f9abee69a5f103a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/inorganic asset meshes/oculus basic.fbx using Guid(ed67eb51b3724d84f9abee69a5f103a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e48229b4aa7f6e16613b8cf6062509d') in 0.035129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.615173 seconds.
-  path: Assets/inorganic asset meshes/clouds unwrapped geo fixed.fbx
-  artifactKey: Guid(fb13b0df636bcf74f972dabc5876d584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/inorganic asset meshes/clouds unwrapped geo fixed.fbx using Guid(fb13b0df636bcf74f972dabc5876d584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce2f95503a3e3f51512be6d0dbfa6b4') in 0.134644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.424366 seconds.
-  path: Assets/materials/Candles/DefaultMaterial_Base_Color.png
-  artifactKey: Guid(940ef58bec2de024c9f09f1073c3a852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Candles/DefaultMaterial_Base_Color.png using Guid(940ef58bec2de024c9f09f1073c3a852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29548a283f35edd4889ce19ed90b6b9f') in 0.020683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/materials/Candles/DefaultMaterial_Normal.png
-  artifactKey: Guid(3378eb84ab270ae488791882660861ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Candles/DefaultMaterial_Normal.png using Guid(3378eb84ab270ae488791882660861ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0125845dba0375c6aab0c02a2088455') in 0.095966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/materials/Candles/DefaultMaterial_Roughness.png
-  artifactKey: Guid(cb4b27cdf8734d94d9d2c146b468f73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Candles/DefaultMaterial_Roughness.png using Guid(cb4b27cdf8734d94d9d2c146b468f73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694a016d1c6a8919096da11bfa1d993c') in 0.067129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/materials/Candles/DefaultMaterial_Height.png
-  artifactKey: Guid(79659c0c89daf7d479ec384ec7b0c1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Candles/DefaultMaterial_Height.png using Guid(79659c0c89daf7d479ec384ec7b0c1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793f722b9dd829100dc7ac650bc4bfc9') in 0.021644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/materials/Candles/DefaultMaterial_Metallic.png
-  artifactKey: Guid(1421844921c6ae348a3c9a4f4da294af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Candles/DefaultMaterial_Metallic.png using Guid(1421844921c6ae348a3c9a4f4da294af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71a00f5f3e1335173b99295ff133277') in 0.016384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/materials/Candles/New Material.mat
-  artifactKey: Guid(7fe32ab34501de547a079e55b13a23fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Candles/New Material.mat using Guid(7fe32ab34501de547a079e55b13a23fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf9305b4932fe221149e3b1f1e349bc') in 0.031661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/materials/Candles/DefaultMaterial_Normal_OpenGL.png
-  artifactKey: Guid(0abda555d2d1e4940bfc988eeda6d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Candles/DefaultMaterial_Normal_OpenGL.png using Guid(0abda555d2d1e4940bfc988eeda6d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2356c7cbeeae5849fc7fa3ec6750b9a1') in 0.031744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 294.009842 seconds.
-  path: Assets/materials/New Material.mat
-  artifactKey: Guid(f82250801c7e5dc40acffb0d1b682d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/New Material.mat using Guid(f82250801c7e5dc40acffb0d1b682d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53685f2e982967b76aa6752b2c588e43') in 0.175799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.182268 seconds.
-  path: Assets/materials/candelabra.mat
-  artifactKey: Guid(f82250801c7e5dc40acffb0d1b682d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/candelabra.mat using Guid(f82250801c7e5dc40acffb0d1b682d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439e2cf3f3083a5959fbca85cbfe0e39') in 0.388661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/materials/oculus 1.mat
-  artifactKey: Guid(867f4bd4b59082742b297b4367c3d05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/oculus 1.mat using Guid(867f4bd4b59082742b297b4367c3d05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acfd5bbe300d284264d6eea6eb92081') in 0.170067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/materials/clouds material.mat
-  artifactKey: Guid(3d2faf0f2a0f9f3429d8afac1cf9e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/clouds material.mat using Guid(3d2faf0f2a0f9f3429d8afac1cf9e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697ed8904dedc626da32617305e004ae') in 0.048459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.067654 seconds.
-  path: Assets/materials/candelabra unrapped w spokes_lambert13_Normal.png
-  artifactKey: Guid(9184e3a559b5c2e4ab73a67c5004b271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/candelabra unrapped w spokes_lambert13_Normal.png using Guid(9184e3a559b5c2e4ab73a67c5004b271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ac5fcbab4347d973aabf031777ab91') in 0.161607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 83.431637 seconds.
-  path: Assets/materials/candelabra.mat
-  artifactKey: Guid(f82250801c7e5dc40acffb0d1b682d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/candelabra.mat using Guid(f82250801c7e5dc40acffb0d1b682d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab81f137b84979cd4be98519f7561b5') in 0.101433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.786927 seconds.
-  path: Assets/materials/Cathedral Materials
-  artifactKey: Guid(859c18323a2ed234695f832d12b468fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/Cathedral Materials using Guid(859c18323a2ed234695f832d12b468fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d2262c4f71d5dff5fc2db1298b313f') in 0.007421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.812386 seconds.
-  path: Assets/cathedral body meshes/CathedralWithDestruction.prefab
-  artifactKey: Guid(e226f0d1f14ff6b45a05a4f00870b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cathedral body meshes/CathedralWithDestruction.prefab using Guid(e226f0d1f14ff6b45a05a4f00870b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e13f40c07dfccd14f1469ea5ad7d87') in 0.301167 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.2 MB.
+System memory in use after: 217.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4609.
+Total: 3.306078 ms (FindLiveObjects: 0.479233 ms CreateObjectMapping: 0.284619 ms MarkObjects: 2.516172 ms  DeleteObjects: 0.024475 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
