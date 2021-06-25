@@ -15,11 +15,11 @@ D:/Projects/GitHub/RaucousCourt
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53946
+51978
 Successfully changed project path to: D:/Projects/GitHub/RaucousCourt
 D:/Projects/GitHub/RaucousCourt
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 113.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 147.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.3f1 (4bef613afd59)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,173 +35,293 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002218 seconds.
+Registered in 0.002086 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 120.71 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 124.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.408 seconds
+- Completed reload, in  1.430 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003051 seconds.
+Registered in 0.003223 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 116.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.247 seconds
+- Completed reload, in  1.232 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4140 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.7 MB.
-System memory in use after: 147.9 MB.
+System memory in use before: 148.1 MB.
+System memory in use after: 148.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4601.
-Total: 2.699000 ms (FindLiveObjects: 0.318400 ms CreateObjectMapping: 0.177700 ms MarkObjects: 2.139900 ms  DeleteObjects: 0.062200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/organic meshes/statue.obj
-  artifactKey: Guid(41dab7e2952fc2a4bb9658c7c3b66bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/organic meshes/statue.obj using Guid(41dab7e2952fc2a4bb9658c7c3b66bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3ed0977e95d04d5b284e9ccb798def') in 0.519140 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4644.
-Total: 2.837800 ms (FindLiveObjects: 0.344700 ms CreateObjectMapping: 0.210000 ms MarkObjects: 2.250300 ms  DeleteObjects: 0.032300 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4612.
+Total: 2.684400 ms (FindLiveObjects: 0.362500 ms CreateObjectMapping: 0.182000 ms MarkObjects: 2.027300 ms  DeleteObjects: 0.111600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.980225 seconds.
-  path: Assets/organic meshes/statue_finished.fbx
-  artifactKey: Guid(c53f7052810c67a4a9b8051b25064b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/organic meshes/statue_finished.fbx using Guid(c53f7052810c67a4a9b8051b25064b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad00a5439826abc419c69d19dc2987ee') in 0.068637 seconds 
+  path: Assets/materials/FoliageStuff/tree foliage mat.mat
+  artifactKey: Guid(da4e009f25c31f94f9c2d1a227e522cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/FoliageStuff/tree foliage mat.mat using Guid(da4e009f25c31f94f9c2d1a227e522cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1c667f2e1f3b07547eb0e82492002d') in 0.144288 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.420943 seconds.
-  path: Assets/organic meshes/statue_finished.fbx
-  artifactKey: Guid(c53f7052810c67a4a9b8051b25064b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/organic meshes/statue_finished.fbx using Guid(c53f7052810c67a4a9b8051b25064b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f5311dc782006219bcd986643f665e') in 0.062929 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003083 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.3 MB.
-System memory in use after: 150.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4647.
-Total: 2.722000 ms (FindLiveObjects: 0.341000 ms CreateObjectMapping: 0.159400 ms MarkObjects: 2.204600 ms  DeleteObjects: 0.016100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003388 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.4 MB.
-System memory in use after: 150.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4650.
-Total: 3.324900 ms (FindLiveObjects: 0.518600 ms CreateObjectMapping: 0.212200 ms MarkObjects: 2.560900 ms  DeleteObjects: 0.031800 ms)
-
+  Time since last request: 0.000405 seconds.
+  path: Assets/materials/FoliageStuff/Ground_foliage.mat
+  artifactKey: Guid(1d93caa37374c0b4eadb107b8d8f028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/FoliageStuff/Ground_foliage.mat using Guid(1d93caa37374c0b4eadb107b8d8f028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689f3710fb3478e7a2ce4647f9682dee') in 0.059990 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 724.164606 seconds.
-  path: Assets/materials/statue.mat
-  artifactKey: Guid(dffb7142d8840c9498083c391b17c179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/statue.mat using Guid(dffb7142d8840c9498083c391b17c179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b96701f2f6f1d8ce5482e01b19aa0b9') in 0.144023 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003757 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.039 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.4 MB.
-System memory in use after: 150.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4654.
-Total: 3.017600 ms (FindLiveObjects: 0.294700 ms CreateObjectMapping: 0.189800 ms MarkObjects: 2.488400 ms  DeleteObjects: 0.043900 ms)
-
+  Time since last request: 122.334979 seconds.
+  path: Assets/materials/FoliageStuff/New Material.mat
+  artifactKey: Guid(86d098873cba83c4bb3b540c9f069ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/FoliageStuff/New Material.mat using Guid(86d098873cba83c4bb3b540c9f069ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159e591a3edebc385ed1518388df5d9a') in 0.012998 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.326399 seconds.
-  path: Assets/materials/maps/Tree_Foliage_basecolor.tga
-  artifactKey: Guid(511c41a8f2f18ab4cbdd4f843c819e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/Tree_Foliage_basecolor.tga using Guid(511c41a8f2f18ab4cbdd4f843c819e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74923ad96b80c22cec471fee633c266') in 0.057385 seconds 
+  Time since last request: 43.075610 seconds.
+  path: Assets/materials/FoliageStuff/Foliage2_normal.tga
+  artifactKey: Guid(6641551db02b04649942a3cd99093d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/FoliageStuff/Foliage2_normal.tga using Guid(6641551db02b04649942a3cd99093d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50f69e5e4d0ad66a15d5cb9d5e5d603') in 0.031054 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/materials/maps/DirtGround_normal.tga
-  artifactKey: Guid(9daf903bcb981a74fbd68115ad840cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/DirtGround_normal.tga using Guid(9daf903bcb981a74fbd68115ad840cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442b564f423f21df02e2b69933919374') in 0.016867 seconds 
+  Time since last request: 105.397998 seconds.
+  path: Assets/materials/Cathedral Materials/Base_Wall.mat
+  artifactKey: Guid(e7a09c45024602943aea574125e0fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Cathedral Materials/Base_Wall.mat using Guid(e7a09c45024602943aea574125e0fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a2bb4306eb475f607930381c5f5c9f') in 0.031619 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000250 seconds.
-  path: Assets/materials/maps/DirtGround_basecolor.tga
-  artifactKey: Guid(3ffff0d30ef746540892f8b82fb4874e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/DirtGround_basecolor.tga using Guid(3ffff0d30ef746540892f8b82fb4874e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc688cf4f51a3a6d050fcacaec5a128a') in 0.016485 seconds 
+  path: Assets/materials/Cathedral Materials/Ceiling_Wall.mat
+  artifactKey: Guid(96b4111678bdcfe44944ed012ff14487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Cathedral Materials/Ceiling_Wall.mat using Guid(96b4111678bdcfe44944ed012ff14487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b8b7099e7c44eb68d2797ec4a3b656') in 0.029512 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.494921 seconds.
-  path: Assets/materials/maps/dirt_ground.mat
+  Time since last request: 0.000234 seconds.
+  path: Assets/materials/Cathedral Materials/Ceiling_ceiling.mat
+  artifactKey: Guid(dabbfc5044920a24bac96d581c7af9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Cathedral Materials/Ceiling_ceiling.mat using Guid(dabbfc5044920a24bac96d581c7af9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e836a7ea1e50c1da616986184d87be2') in 0.028096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/materials/Cathedral Materials/Ceiling_Outter.mat
+  artifactKey: Guid(fd2467360dec503459aff47666b0c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Cathedral Materials/Ceiling_Outter.mat using Guid(fd2467360dec503459aff47666b0c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b82f8134e5bfcc598a68502d216e3b') in 0.027756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/materials/candelabra.mat
+  artifactKey: Guid(f82250801c7e5dc40acffb0d1b682d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/candelabra.mat using Guid(f82250801c7e5dc40acffb0d1b682d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e45fa83cfe4a8370cebbfd994c71816') in 0.030339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/materials/Cathedral Materials/Ceiling_Arches.mat
+  artifactKey: Guid(5fedbc1426b214241812e7a634f52ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Cathedral Materials/Ceiling_Arches.mat using Guid(5fedbc1426b214241812e7a634f52ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd102e52340697e815eaccbee2de8168c') in 0.023535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/materials/Cathedral Materials/Cloister_Arches.mat
+  artifactKey: Guid(b3647a38ed2dcd54ea3a6ee46821ad90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Cathedral Materials/Cloister_Arches.mat using Guid(b3647a38ed2dcd54ea3a6ee46821ad90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8845eadbd92e4a294c934d615b27050') in 0.028158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/materials/Cathedral Materials/Ceiling_Pillars.mat
+  artifactKey: Guid(86636a33d765c9d4fbe15b10a55c4597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Cathedral Materials/Ceiling_Pillars.mat using Guid(86636a33d765c9d4fbe15b10a55c4597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e7afbaa2c1344120da09be6a3a37ee') in 0.024806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/materials/dirt_ground.mat
   artifactKey: Guid(528bac2a8127cde4099091c983093e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/maps/dirt_ground.mat using Guid(528bac2a8127cde4099091c983093e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015d63b1eba29c544dc9fe06ded81b2f') in 0.030824 seconds 
+Start importing Assets/materials/dirt_ground.mat using Guid(528bac2a8127cde4099091c983093e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edadec88120cc7df0d20c8ffb8f6a346') in 0.026341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/materials/Cathedral Materials/Dome_Arches 1.mat
+  artifactKey: Guid(4e776700a656b8e4d83f835128f2e9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Cathedral Materials/Dome_Arches 1.mat using Guid(4e776700a656b8e4d83f835128f2e9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60822fc6f6d310bf4055fdbc71a1641') in 0.016584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/materials/clouds material.mat
+  artifactKey: Guid(3d2faf0f2a0f9f3429d8afac1cf9e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/clouds material.mat using Guid(3d2faf0f2a0f9f3429d8afac1cf9e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d61fa77aee113f58ce8f51098be9c6c') in 0.021959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/materials/Cathedral Materials/Ceiling_Innards.mat
+  artifactKey: Guid(9af924585bf29e547afcbb35db91d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Cathedral Materials/Ceiling_Innards.mat using Guid(9af924585bf29e547afcbb35db91d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851a368d449ce2b134c883053b93e1b1') in 0.018253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.344251 seconds.
+  path: Assets/materials/limestone.mat
+  artifactKey: Guid(80b0642b896e0134ba16646020d63f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/limestone.mat using Guid(80b0642b896e0134ba16646020d63f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2eacd0468d682d72a8b3a495e168883') in 0.028116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/materials/Candles/New Material.mat
+  artifactKey: Guid(7fe32ab34501de547a079e55b13a23fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Candles/New Material.mat using Guid(7fe32ab34501de547a079e55b13a23fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf9305b4932fe221149e3b1f1e349bc') in 0.021712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.775500 seconds.
+  path: Assets/materials/FoliageStuff/foliage2.obj
+  artifactKey: Guid(89a05a541cd34204cb419d73d21201af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/FoliageStuff/foliage2.obj using Guid(89a05a541cd34204cb419d73d21201af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bd78a2cb8f34e4481af22678667b4a') in 0.081420 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003083 seconds.
+Registered in 0.003136 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
+- Completed reload, in  1.022 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.5 MB.
-System memory in use after: 162.8 MB.
+Unloading 4117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.6 MB.
+System memory in use after: 156.9 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4705.
-Total: 2.530900 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.160300 ms MarkObjects: 2.026300 ms  DeleteObjects: 0.020200 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4676.
+Total: 3.114300 ms (FindLiveObjects: 0.498000 ms CreateObjectMapping: 0.221800 ms MarkObjects: 2.340400 ms  DeleteObjects: 0.053200 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1464.591961 seconds.
+  path: Assets/Scenes/final/LightingData.asset
+  artifactKey: Guid(5f8d058b715dc9f4eaa6e14fc8b16591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/LightingData.asset using Guid(5f8d058b715dc9f4eaa6e14fc8b16591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788892fbb8ef9817f7ed8b281a8ae46b') in 0.031424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Scenes/final/ReflectionProbe-0.exr
+  artifactKey: Guid(89bfa13135688a04aadccd96502da907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/ReflectionProbe-0.exr using Guid(89bfa13135688a04aadccd96502da907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f662e1bf1afa88abe7362438e5641374') in 0.066219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Scenes/final/ReflectionProbe-1.exr
+  artifactKey: Guid(ee6bc5acd75040c4f9ab88624bffabba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/ReflectionProbe-1.exr using Guid(ee6bc5acd75040c4f9ab88624bffabba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbc0f842f4b44f876c2c7cdaf0ac6a2') in 0.019493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Scenes/final/Lightmap-0_comp_dir.png
+  artifactKey: Guid(103f036fc1bf5394db6260cc5d5f1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/Lightmap-0_comp_dir.png using Guid(103f036fc1bf5394db6260cc5d5f1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9e318c181f8fddc9985556a5738f8f') in 0.040496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Scenes/final/Lightmap-0_comp_light.exr
+  artifactKey: Guid(a60b792ba392812489d0e28a2c9e9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/Lightmap-0_comp_light.exr using Guid(a60b792ba392812489d0e28a2c9e9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d625757d300e733330a54e89e18336') in 0.015671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Scenes/final/ReflectionProbe-2.exr
+  artifactKey: Guid(0f328f62c906fdb4596064a3ddc11b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/ReflectionProbe-2.exr using Guid(0f328f62c906fdb4596064a3ddc11b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aff5393dd4163759c27ff2fecdbe51') in 0.018598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Scenes/final/ReflectionProbe-3.exr
+  artifactKey: Guid(ba121d43a71e34741b02d8bbdfbd47a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/ReflectionProbe-3.exr using Guid(ba121d43a71e34741b02d8bbdfbd47a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dfc91a66f1ce8cdb27000a2f7dfd62') in 0.019712 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4121 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.1 MB.
+System memory in use after: 161.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4774.
+Total: 2.825700 ms (FindLiveObjects: 0.357900 ms CreateObjectMapping: 0.238400 ms MarkObjects: 2.180200 ms  DeleteObjects: 0.048400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 487.761338 seconds.
+  path: Assets/Scenes/final/LightingData.asset
+  artifactKey: Guid(5f8d058b715dc9f4eaa6e14fc8b16591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/LightingData.asset using Guid(5f8d058b715dc9f4eaa6e14fc8b16591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b37a4dc4363ec6bb59a1dfa297d80db') in 0.020603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Scenes/final/ReflectionProbe-0.exr
+  artifactKey: Guid(89bfa13135688a04aadccd96502da907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/ReflectionProbe-0.exr using Guid(89bfa13135688a04aadccd96502da907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8a9b3333364e36ac312d10d44ab296') in 0.063548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Scenes/final/ReflectionProbe-1.exr
+  artifactKey: Guid(ee6bc5acd75040c4f9ab88624bffabba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/ReflectionProbe-1.exr using Guid(ee6bc5acd75040c4f9ab88624bffabba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8c8b338c771a02d8c29427368c0315') in 0.074490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/Scenes/final/Lightmap-0_comp_dir.png
+  artifactKey: Guid(103f036fc1bf5394db6260cc5d5f1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/Lightmap-0_comp_dir.png using Guid(103f036fc1bf5394db6260cc5d5f1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a1af2736b7b215a52619bca658c2a4') in 0.019657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Scenes/final/Lightmap-0_comp_light.exr
+  artifactKey: Guid(a60b792ba392812489d0e28a2c9e9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/Lightmap-0_comp_light.exr using Guid(a60b792ba392812489d0e28a2c9e9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9862eb21694d11237140e5d4203407') in 0.015480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Scenes/final/ReflectionProbe-2.exr
+  artifactKey: Guid(0f328f62c906fdb4596064a3ddc11b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/ReflectionProbe-2.exr using Guid(0f328f62c906fdb4596064a3ddc11b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9a9a4033a922d11ae966162c0fa05a') in 0.021971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Scenes/final/ReflectionProbe-3.exr
+  artifactKey: Guid(ba121d43a71e34741b02d8bbdfbd47a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/final/ReflectionProbe-3.exr using Guid(ba121d43a71e34741b02d8bbdfbd47a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518f4b03ecd61a0083f7ab8ccf5bacac') in 0.017793 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.8 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4863.
+Total: 2.530500 ms (FindLiveObjects: 0.313500 ms CreateObjectMapping: 0.222400 ms MarkObjects: 1.974900 ms  DeleteObjects: 0.018900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
